@@ -12,6 +12,7 @@ $(document).ready(function() {
 	$(window).on('resize load', function() {
 		
 		if ($currentItem[0]) {
+			
 			$slideLine.css({
 			  "width": $currentItem.width(),
 			  "left": $currentItem.position().left

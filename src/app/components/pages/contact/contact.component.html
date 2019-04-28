@@ -1,3 +1,51 @@
-<p>
-  contact works!
-</p>
+<section class="section py-5">
+        <div class="container">
+            <div class="row">
+		        <div class="contact-intro col-lg-8 mx-lg-auto mb-5 text-center">
+			        
+			        <img class="profile-small d-inline-block mx-auto rounded-circle mb-3" src="assets/images/profile2.jpeg" alt="">
+			        
+			        <div class="speech-bubble bg-white p-4 p-lg-5 shadow-sm">
+				        <p class="text-left mb-3">Actualmente estoy tomando trabajos independientes. Si estás interesado en contratarme para su proyecto, utilice el siguiente formulario para ponerse en contacto. ¿Quieres saber cómo trabajo y qué puedo ofrecer? Revisa mi <a [routerLink]="['/proyectos']">portafolio de proyectos</a> y/o mi <a [routerLink]="['/resumen']">resumen .</a></p>
+				        <h6 class="font-weight-bold text-center mb-3"> También me puedes encontrar en las siguientes redes sociales.</h6>
+				        
+				        <ul class="social-list-color list-inline mb-0">
+				            
+			                <li class="list-inline-item mb-3"><a target="_blank" class="linkedin" [href]="'https://www.linkedin.com/in/jos%C3%A9-manuel-p%C3%A9rez-42446b127/'"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+
+			                <li class="list-inline-item mb-3"><a target="_blank" class="github" [href]="'https://github.com/raven178/'"><i class="fab fa-github-alt fa-fw"></i></a></li>
+
+			                <li class="list-inline-item mb-3"><a target="_blank" class="stack-overflow" [href]="'https://es.stackoverflow.com/users/43380/manueel-perezz'"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			                
+			                <li class="list-inline-item mb-3"><a target="_blank" class="facebook" [href]="'https://www.facebook.com/raven1789'"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+			                
+			                <li class="list-inline-item"><a target="_blank" class="instagram" [href]="'https://www.instagram.com/manueelperezz/?hl=es-la'"><i class="fab fa-instagram fa-fw"></i></a></li>
+			            </ul><!--//social-list-->
+			        </div>
+			        
+		        </div><!--//contact-intro-->
+		        <form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" action="#">
+			        <h3 class="text-center mb-3">Contáctame</h3>
+			        <p class="text-center">Ingresa tus datos y muy pronto me pondré en contacto contigo.</p>
+			        <div class="form-row">                                                           
+		                <div class="form-group col-md-6">
+		                    <label class="sr-only" for="cname">Nombre</label>
+		                    <input type="text" class="form-control" id="cname" name="name" placeholder="Nombre " minlength="2" required="" aria-required="true">
+		                </div>                    
+		                <div class="form-group col-md-6">
+		                    <label class="sr-only" for="cemail">Correo electrónico</label>
+		                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Correo electrónico" required="" aria-required="true">
+		                </div>
+		                <div class="form-group col-12">
+		                    <label class="sr-only" for="cmessage">Comentarios</label>
+		                    <textarea class="form-control" id="cmessage" name="message" placeholder="Ingrese su mensaje" rows="10" required="" aria-required="true"></textarea>
+		                </div>
+		                 <div class="form-group col-12">
+		                    <button type="submit" class="btn btn-block btn-primary py-2">Envíar</button>
+		                </div>                           
+		            </div><!--//form-row-->
+		        </form>
+		        
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//section-->
