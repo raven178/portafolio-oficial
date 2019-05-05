@@ -2,3 +2,10 @@
    border-radius: 50%!important;
    border: 5px solid #fff !important;
 }
+
+.skills-block-inner:hover {
+    box-shadow: 1px 3px 12px 5px #dbdbdb !important;
+}
+.skills-block-inner {
+transition: all 0.5s ease-in-out;
+}
